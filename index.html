@@ -7,6 +7,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" href="images/logo-lays.png">
   <title>Home | Lay's</title>
   </head>
@@ -17,8 +18,12 @@
                 <div class="left">
                     <a href="#"><img src="images/logo-lays.png" /></a>
                 </div>
-                <div class="middle">
+                <nav class="middle">
+                    <input type="checkbox" id="check">
                     <ul>
+                        <label for="check" class="button cancel">
+                            <i class="fas fa-times"></i>
+                        </label>
                         <li><a href="#">PRODUCTS</a></li>
                         <li><a href="#">ABOUTUS</a></li>
                         <li><a href="#">RECIPES</a></li>
@@ -26,12 +31,15 @@
                         <li><a href="#">WHERE TO BUY</a></li>
                         <li><a href="#">PEPSICO TASTY REWARDS</a></li>
                     </ul>
-                </div>
+                    <label for="check" class="button bars">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </nav>
                 <div class="right">
                     <button>
                         <a href="#">EN</a>
                     </button>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </header>
         </section>
@@ -125,7 +133,7 @@
             </div>
             <div class="right">
                 <h4>Say Hello To Swicy !</h4>
-                <button><a href="#">View More</a></button>
+                <button><a href="#">View More</a></button>      
             </div>
         </div>
         </section>
@@ -142,17 +150,32 @@
             </div>
             <div class="middle">
                 <ul>
-                    <li>
+                    <li class="one">
                         <a href="#"><img src="images/2.jpg"></a>
+                        <div class="overlay">
+                            <div class="text">
+                                What summer tastes like.<br> Comment which Lay's summer flavor you want to try (both is a perfectly reasonable answer), and we might send you a bag.</div> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="two">
                         <a href="#"><img src="images/5.jpg"></a>
+                        <div class="overlay">
+                            <div class="text">Lay’s? Order for Lay’s? Your lavender iced latte fake flavor is ready.</div>
+                        </div>
                     </li>
-                    <li>
+                    <li class="thre">
                         <a href="#"><img src="images/6.jpg"></a>
+                        <div class="overlay">
+                            <div class="text">Showing up to the party lookin’ like a snack 😎 Tell us what Lay's flavor you're putting in your bag for a chance to win a tumbler, tote and sunglasses!</div>
+                        </div>
                     </li>
-                    <li>
+                    <li class="four">
                         <a href="#"><img src="images/th (4).jpeg"></a>
+                        <div class="overlay">
+                            <div class="text">
+                                Only true fans can guess Lay's flavors without the names. Do you know what these iconic Lay’s flavors are?
+                            </div>
+                        </div>
                     </li>
             </div>        
             <div class="bottom">
@@ -178,12 +201,6 @@
 <section class="connect">
     <section class="wrapper">
         <section class="container">
-            <div class="conctone">
-                <img src="images/bg-contactus-en.jpg"/>
-            </div>
-            <div class="concttwo">
-                <img src="images/bg-contactus-mobile-en.jpg"/>
-            </div>
             <div class="icon">
                 <ul>
                     <li>
@@ -241,6 +258,5 @@
         </section>
     </section>
 </section>        
-
-  </body>
-
+</body>
+ 
