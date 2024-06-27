@@ -789,20 +789,20 @@ nav label.bars{
 @media all and (max-width: 768px) {
   .connect .wrapper .container {
     background-image: url(../images/bg-contactus-mobile-en.jpg);
-    background-size: cover;
-    height: 60vh;
+    background-size: contain;
+    height: 63vh;
   }
   .videos .wrapper .container .right button {
     margin-left: 54px;
   }
   .connect .wrapper .container .icon ul {
-      margin-left: 3rem;
-      gap: 85px;
-      padding: 195px 0; 
-  }
+    margin-left: 3rem;
+    gap: 69px;
+    padding: 180px 0;
+  }  
   .connect .wrapper .container .icon ul li a {
     display: block;
-    width: 99%; 
+    width: 70%; 
   }
   .videos .wrapper .container .right h4 {
     font-size: 17px;
@@ -833,12 +833,12 @@ nav label.bars{
 @media all and (max-width: 640px) {
   .connect .wrapper .container {
     background-size: contain;
-    height: 58vh;
+    height: 53vh;
   }
   .connect .wrapper .container .icon ul {
-    margin-left: 2rem;
-    gap: 50px;
-    padding: 156px 0; 
+      margin-left: 1rem;
+      gap: 50px;
+      padding: 147px 0; 
   }
   .connect .wrapper .container .icon ul li a {
     display: block;
@@ -886,22 +886,22 @@ nav label.bars{
     gap: 30px;
     padding: 121px 0; 
   }
-  .Products .wrapper .container .middle ul {
-    margin-left: -32%;
-    width: 86%;
+  .connect .wrapper .container {
+    background-size: contain;
+    height: 47vh; 
   }
-    .Products .wrapper .container .middle ul .a {
-      display: none;
-    }
-    .RECIPES .wrapper .container .top h3 {
-      font-size: 47px;
-      padding: 0 48px;
-    }
-    .RECIPES .wrapper .container .middle ul .a {
-      display: none;
-    }
-    .RECIPES .wrapper .container .middle ul {
-      height: 70vh;
+  .Products .wrapper .container .middle ul .a {
+    display: none;
+  }
+  .RECIPES .wrapper .container .top h3 {
+    font-size: 47px;
+    padding: 0 48px;
+  }
+  .RECIPES .wrapper .container .middle ul .a {
+    display: none;
+  }
+  .RECIPES .wrapper .container .middle ul {
+    height: 70vh;
   }
   .videos .wrapper .container .top h3 {
     padding: 0px 66px;
@@ -921,7 +921,6 @@ nav label.bars{
   }
   .Products .wrapper .container .middle ul {
     width: 105%;
-    margin-left: -4%;
   }
   .Products .wrapper .container .top h3 {
   font-size: 39px;
@@ -959,12 +958,6 @@ nav label.bars{
   .Products .wrapper .container .top h3 {
     padding: 0 60px; 
   }
-  .connect .wrapper .container .icon ul {
-    top: 456%; 
-  }
-  spotlight .wrapper button {
-    left: 33%;
-  }
   .RECIPES .wrapper .container .top h3 {
     padding: 0px 48px; 
   }
@@ -981,8 +974,7 @@ nav label.bars{
     display: none;
   }
   .Products .wrapper .container .middle ul {
-    width: 132%;
-    margin-left: -26%;
+    width: 106%;
     height: 35vh;
   }
   .Products .wrapper .container .middle ul li button {
@@ -1004,12 +996,14 @@ nav label.bars{
     left: 34%;
   }
   .connect .wrapper .container {
-    height: 40vh; 
+    background-repeat: round;
   }
   .connect .wrapper .container .icon ul {
-    margin-left: 3px;
-    gap: 10px;
-    padding: 96px 0; 
+    padding: 133px 0;
+  }
+  .connect .wrapper .container .icon ul li a {
+    display: block;
+    width: 89%; 
   }
 }
 @media all and (max-width: 360px) {
@@ -1022,15 +1016,6 @@ nav label.bars{
     height: 32vh;
   }
 }
-@media all and (max-width: 361px) {
-  .connect .wrapper .container .icon ul {
-    margin-left: 3px;
-    gap: 26px;
-    padding: 80px 0; 
-  }
-  .connect .wrapper .container {
-    height: 32vh; 
-  }
-}
+
 
 
