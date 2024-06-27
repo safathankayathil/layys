@@ -539,31 +539,95 @@
 
 /* connect  */
 
+.connect { 
+ 
+}
+
 .connect .wrapper { 
  padding: 15px 0;
 }
+
 .connect .wrapper .container { 
   background-image: url(../images/bg-contactus-en.jpg);
-  padding: 39px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 38px 0;
 }
-.connect .wrapper .container .concttwo {
+
+.connect .wrapper .container .icon { 
+
+}
+
+.connect .wrapper .container .icon ul { 
+ display: flex; 
+ position: relative;
+ left: 40%;
+ width: 47%;
+}
+
+.connect .wrapper .container .icon ul li { 
+  margin-left: 31px;
+}
+
+.connect .wrapper .container .icon ul li a { 
+
+}
+
+.connect .wrapper .container .icon ul li a img { 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .connect { 
+
+}
+
+.connect .wrapper { 
+  padding: 15px 0;
+}
+.connect .wrapper .container {
+
+}
+.connect .wrapper .container .connectt { 
+ position: absolute;
+ width: 100%;
+ display: block;
+}
+.connect .wrapper .container .connectimg {
   display: none;
 }
+.connect .wrapper .container .icon { 
+}
+
 .connect .wrapper .container .icon ul { 
- display: flex;
- margin-left: 24rem;
- gap: 5%;
+  display: flex;
+  position: relative;
+  left: 47%;
 }
-.connect .wrapper .container .icon ul li a:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.2); 
+
+.connect .wrapper .container .icon ul li { 
 }
+
+.connect .wrapper .container .icon ul li a {
+ display: block;
+ width: 100%;
+}
+
 .connect .wrapper .container .icon ul li a img { 
-  display: block;
-  width: 100%;
-  transition:  0.6s ease, background-color 0.6s ease;
-}
+
+} */
 
 /* fotter */
 
@@ -614,9 +678,8 @@
     width: 86%; 
   }
   .connect .wrapper .container .icon ul {
-    margin-left: 29rem;
-    gap: 8%; 
-    }
+    gap: 19px;
+  }
 }
 
 @media all and (max-width: 1280px) {
@@ -626,35 +689,14 @@
   .videos .wrapper .container .right h4 {
     font-size: 28px;
   }
-  .connect .wrapper .container {
-    background-size: contain;
-    padding: 27px;
-
-  }
-  .connect .wrapper .container .icon ul li a {
-    display: block;
-    width: 85%;
-  }
-  .connect .wrapper .container .icon ul {
-    margin-left: 22rem;
-    gap: 18px;
-  }
   #menu .wrapper header .middle ul li a {
     font-size: 12px;
   }
 }
 
 @media all and (max-width: 1080px) {
-  .connect .wrapper .container .icon ul li a {
-    display: block;
-    width: 71%; 
-  }
   #menu .wrapper header .middle ul {
     gap: 17px;
-  }
-  .connect .wrapper .container .icon ul {
-    margin-left: 20rem;
-    gap: 7px;
   }
   .Products .wrapper .container .middle ul {
     height: 75vh;
@@ -696,14 +738,6 @@
 }
 
 @media all and (max-width: 980px) {
- .connect .wrapper .container .icon ul li a {
-  display: block;
-  width: 63%;
-  }
-  .connect .wrapper .container .icon ul {
-    margin-left: 19rem;
-    gap: 0px;
-  }
  .wrapper {
   width: 100%;
  }
@@ -752,9 +786,9 @@ nav label.bars{
   display: flex;
   width: 91%; 
 }
- .Products .wrapper .container .middle ul li h2 {
+.Products .wrapper .container .middle ul li h2 {
   font-size: 33px;
-  }
+}
   .fotter .wrapper .container .link ul {
     flex-direction: column;
     gap: 10px;
@@ -787,22 +821,12 @@ nav label.bars{
 }
 
 @media all and (max-width: 768px) {
-  .connect .wrapper .container {
-    background-image: url(../images/bg-contactus-mobile-en.jpg);
-    background-size: contain;
-    height: 63vh;
+  .connect .wrapper .container .icon ul {
+    left: 40%;
+    width: 51%;
   }
   .videos .wrapper .container .right button {
     margin-left: 54px;
-  }
-  .connect .wrapper .container .icon ul {
-    margin-left: 3rem;
-    gap: 69px;
-    padding: 180px 0;
-  }  
-  .connect .wrapper .container .icon ul li a {
-    display: block;
-    width: 70%; 
   }
   .videos .wrapper .container .right h4 {
     font-size: 17px;
@@ -819,12 +843,6 @@ nav label.bars{
   #spotlight .wrapper .two img {
     display: block;
   }
-  .connect .wrapper .container .conctone {
-    display: none;
-  }
-  .connect .wrapper .container .concttwo {
-    display: block;
-  }
   .RECIPES .wrapper .container .middle ul {
     height: 70vh;
   }
@@ -832,17 +850,17 @@ nav label.bars{
 
 @media all and (max-width: 640px) {
   .connect .wrapper .container {
-    background-size: contain;
-    height: 53vh;
+    background-image: url(../images/bg-contactus-mobile-en.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 116px 0;
   }
   .connect .wrapper .container .icon ul {
-      margin-left: 1rem;
-      gap: 50px;
-      padding: 147px 0; 
-  }
-  .connect .wrapper .container .icon ul li a {
-    display: block;
-    width: 76%;
+    left: 0%;
+    width: 95%;
+    top: 66px; 
+    gap: 33px; 
   }
   .Products .wrapper .container .middle ul li button  {
     padding: 6px 30px;
@@ -881,15 +899,6 @@ nav label.bars{
 }
 
 @media (max-width: 540px) {
-  .connect .wrapper .container .icon ul {
-    margin-left: 20px;
-    gap: 30px;
-    padding: 121px 0; 
-  }
-  .connect .wrapper .container {
-    background-size: contain;
-    height: 47vh; 
-  }
   .Products .wrapper .container .middle ul .a {
     display: none;
   }
@@ -996,25 +1005,18 @@ nav label.bars{
     left: 34%;
   }
   .connect .wrapper .container {
-    background-repeat: round;
+    padding: 0 0;
+    height: 40vh;
   }
   .connect .wrapper .container .icon ul {
-    padding: 133px 0;
-  }
-  .connect .wrapper .container .icon ul li a {
-    display: block;
-    width: 89%; 
+    left: 2%;
+    width: 90%;
+    top: 127px;
+    gap: 0px; 
   }
 }
 @media all and (max-width: 360px) {
-  .connect .wrapper .container .icon ul {
-    margin-left: 7px;
-    gap: 15px;
-    padding: 79px 0; 
-  }
-  .connect .wrapper .container {
-    height: 32vh;
-  }
+ 
 }
 
 
