@@ -539,14 +539,9 @@
 
 /* connect  */
 
-.connect { 
- 
-}
-
 .connect .wrapper { 
  padding: 15px 0;
 }
-
 .connect .wrapper .container { 
   background-image: url(../images/bg-contactus-en.jpg);
   background-size: cover;
@@ -554,80 +549,15 @@
   background-position: center;
   padding: 38px 0;
 }
-
-.connect .wrapper .container .icon { 
-
-}
-
 .connect .wrapper .container .icon ul { 
  display: flex; 
  position: relative;
  left: 40%;
  width: 47%;
 }
-
 .connect .wrapper .container .icon ul li { 
   margin-left: 31px;
 }
-
-.connect .wrapper .container .icon ul li a { 
-
-}
-
-.connect .wrapper .container .icon ul li a img { 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .connect { 
-
-}
-
-.connect .wrapper { 
-  padding: 15px 0;
-}
-.connect .wrapper .container {
-
-}
-.connect .wrapper .container .connectt { 
- position: absolute;
- width: 100%;
- display: block;
-}
-.connect .wrapper .container .connectimg {
-  display: none;
-}
-.connect .wrapper .container .icon { 
-}
-
-.connect .wrapper .container .icon ul { 
-  display: flex;
-  position: relative;
-  left: 47%;
-}
-
-.connect .wrapper .container .icon ul li { 
-}
-
-.connect .wrapper .container .icon ul li a {
- display: block;
- width: 100%;
-}
-
-.connect .wrapper .container .icon ul li a img { 
-
-} */
 
 /* fotter */
 
@@ -1007,6 +937,7 @@ nav label.bars{
   .connect .wrapper .container {
     padding: 0 0;
     height: 40vh;
+    background-size: contain;
   }
   .connect .wrapper .container .icon ul {
     left: 2%;
@@ -1014,9 +945,6 @@ nav label.bars{
     top: 127px;
     gap: 0px; 
   }
-}
-@media all and (max-width: 360px) {
- 
 }
 
 
