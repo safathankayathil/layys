@@ -557,6 +557,10 @@
 }
 .connect .wrapper .container .icon ul li { 
   margin-left: 31px;
+  transition: width 0.6s ease, background-color 0.6s ease;
+}
+.connect .wrapper .container .icon ul li:hover {
+  transform: scale(1.1);
 }
 
 /* fotter */
@@ -940,8 +944,8 @@ nav label.bars{
     background-size: contain;
   }
   .connect .wrapper .container .icon ul {
-    left: 2%;
-    width: 90%;
+    left: 5%;
+    width: 85%; 
     top: 127px;
     gap: 0px; 
   }
